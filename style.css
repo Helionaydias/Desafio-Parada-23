@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+ul {
+  margin: 10px;
+  list-style-type: none;
+}
+input {
+  padding: 10px;
+  border-radius: 2px solid;
+  margin-right: 10px;
+  outline: none;
+}
+button {
+  padding: 10px;
+  border-radius: 2px solid;
+  margin-right: 10px;
+}

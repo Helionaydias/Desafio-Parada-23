@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Item</title>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h1>Insira um Item</h1>
   <div class="container">
-    <p id="p">Item digitado</p>
-    <p id="p">Valor do item</p>
-
+    <div class="item-list">
+      <h2>Itens disponíveis</h2>
+      <ul id="itemList"></ul>
+    </div>
+    <input type="text" id="itemInput" placeholder="Digite o nome do item">
+    <button id="enviarButton">Enviar</button>
+    <p id="output"></p>
   </div>
 
   <script src="script.js"></script>
